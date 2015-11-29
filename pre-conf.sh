@@ -16,7 +16,7 @@
  /var/www/jasmine/bin/cake migrations migrate
  
  # cron para atualizar dados
- echo "*/5 * * * * www-data /usr/bin/php /var/www/jasmine/bin/cake query" | tee /etc/crontab
+ echo "*/5 * * * * www-data /var/www/jasmine/bin/cake query" | tee /etc/crontab
 
  rm -R /var/www/html
  # mod_rewrite
